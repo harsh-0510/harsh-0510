@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+
+
+
+
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    z-index: -1;
+    background-image: url("ee.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+
+ul {
+    display: flex;
+    background-color: black;
+    padding: 13px;
+
+
+
+    list-style-type: none;
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#li {
+    flex-grow: 1;
+}
+
+#li2 {
+    flex-grow: 25;
+    text-align: center;
+
+}
+
+#li3 {
+    flex-grow: 1;
+    text-align: center
+}
+
+#li4 {
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+#li5 {
+    flex-grow: 1;
+    text-align: right;
+}
+
+
+.front {
+    color: white;
+}
+
+.char1,
+.char2,
+.char3,
+.char4,
+.char5 {
+    font-size: 14.75rem;
+
+
+
+}
+
+.char1 {
+
+
+    height: 36.57vh;
+    width: 90.16vw;
+    /* 
+    border-style: solid;
+    border-color: yellow;
+    border-width: 3px; */
+
+
+
+
+}
+
+.char14 {
+
+    font-size: 26.06vh;
+    margin-top: 4.17vh;
+
+    margin-left: 8.40vw;
+    margin-bottom: 2.06vw;
+}
+
+.char2 {
+    float: left;
+    width: 67.70vw;
+    /* border-style: solid;
+    border-color: yellowgreen;
+    border-width: 3px; */
+    padding: 2.06vw;
+
+}
+
+.char3 {
+    float: left;
+    clear: right;
+    height: 38.70vh;
+    width: 26.07vw;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: yellow; */
+}
+
+
+.char4 {
+    float: left;
+    clear: right;
+
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: yellow; */
+    height: 31.05vh;
+    width: 44.15vw;
+    margin-left: 5.51vw;
+    margin-bottom: 20.70vh;
+
+
+}
+
+.a0 {
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+.float {
+    display: flex;
+
+    padding: 2.07vh 1.10vw 2.07vh 1.10vw;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.char5 {
+
+    float: left;
+
+    margin-left: 1.10vw;
+    margin-top: 10.35vh;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 2.07vh;
+
+
+
+}
+
+.char6 {
+    font-size: 5.17vh;
+    padding: 1.03vh 0.55vw 1.03vh 0.55vw;
+}
+
+.char7 {
+    width: 27.59vw;
+    height: 10.35vh;
+}
+
+.body-image {
+    position: relative;
+
+
+    top: 0;
+
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: rgb(32, 23, 23);
+    clear: both;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+
+
+}
+
+.char8 {
+    /* border-style: solid;
+    border-color: yellow;
+    border-width: 5px; */
+    align-self: stretch;
+
+    color: white;
+
+}
+
+.aboutus {
+    margin: 6px 20px 20px 20px;
+}
+
+.weprovide {
+    text-indent: 80px;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.char9 {
+    color: white;
+    max-height: 450px;
+    max-width: 1500px;
+    /* border-style: solid;
+    border-color: yellow;
+    border-width: 5px; */
+    padding: 20px;
+}
+
+.gg {
+    font-size: 20px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.char10 {
+    height: 190px;
+    width: 660px;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: yellow; */
+    padding: 20px;
+    align-self: flex-end;
+}
+
+div.char13 {
+    align-self: stretch;
+    padding: 20px;
+    /* border-style: solid;
+    border-color: yellow;
+    border-width: 5px; */
+
+
+}
+
+.char15 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*border-style: solid;
+    border-color: yellow;
+    border-width: 5px;*/
+    padding: 30px;
+
+}
+
+.char11 {
+    flex-grow: 1;
+}
+
+.moreaboutus {
+    font-size: 25px;
+
+}
+
+.char12 {
+    flex-grow: 1;
+
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    margin-right: 19px;
+}
+
+.fontstarterpack {
+    font-size: 25px;
+}
+
+.char16 {
+    flex-grow: 1;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+
+}
+
+.article3 {
+    border-style: solid;
+    border-color: white;
+    border-width: 6px;
+}
